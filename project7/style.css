@@ -1,0 +1,101 @@
+/* Reset some default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    overflow-x: hidden;
+    line-height: 1.6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* General styles for the title */
+.title {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.title h2 {
+    font-size: 2.5rem;
+    text-transform: capitalize;
+}
+
+/* Question section styling */
+.questions {
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    width: 90vw;
+    max-width: 800px;
+}
+
+.section-center {
+    display: grid;
+    gap: 1rem;
+}
+
+/* Single question styling */
+.question {
+    background: #fff;
+    border: 1px solid #e2e2e2;
+    border-radius: 5px;
+    padding: 1rem;
+    transition: all 0.3s linear;
+}
+
+.question-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+.question-title p {
+    font-size: 1rem;
+    text-transform: capitalize;
+    margin-bottom: 0;
+}
+
+.question-btn {
+    background: transparent;
+    border-color: transparent;
+    cursor: pointer;
+    outline: none;
+}
+
+.plus-icon,
+.minus-icon {
+    font-size: 1.5rem;
+    color: #3c91e6;
+}
+
+.minus-icon {
+    display: none;
+}
+
+.question-text {
+    display: none;
+    padding-top: 1rem;
+    color: #6b6b6b;
+}
+
+/* Toggle the visibility of the answer */
+.show-text .question-text {
+    display: block;
+}
+
+.show-text .plus-icon {
+    display: none;
+}
+
+.show-text .minus-icon {
+    display: inline;
+}

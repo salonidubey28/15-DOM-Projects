@@ -1,0 +1,72 @@
+/* style.css */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.section-center {
+  background: #fff;
+  padding: 6rem;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 90%;
+  max-width: 600px;
+  text-align: center;
+}
+
+.gift-img img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.gift-info h3 {
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+}
+
+.giveaway {
+  margin-bottom: 1.5rem;
+  font-size: 1.2rem;
+  color: skyblue;
+}
+
+.gift-info p {
+  margin-bottom: 1.5rem;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.deadline {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 2rem;
+}
+
+.deadline-format {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  background: #f4f4f4;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.deadline-format h4 {
+  margin: 0;
+  font-size: 2rem;
+  color: skyblue;
+}
+
+.deadline-format span {
+  margin-top: 0.5rem;
+  font-size: 1rem;
+  color: #555;
+}
